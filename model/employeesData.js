@@ -6,6 +6,6 @@ const employeeSchema=mongoose.Schema({
     "employeeLocation":String,
     "salary":Number
 })
-
+//cbncvb
 const employeesData=mongoose.model('employee',employeeSchema);
 module.exports=employeesData
